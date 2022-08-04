@@ -425,8 +425,8 @@ video {
   --tw-rotate: 0;
   --tw-skew-x: 0;
   --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
+  --tw-scale-x: calc ( 10px ( 12 - 10 ) * ( ( 100vw - 300px) (1400 - 300 )));/*1;*/
+  --tw-scale-y: calc ( 10px ( 12 - 10 ) * ( ( 100vw - 300px) (1400 - 300 )));/*1;*/
   --tw-pan-x:  ;
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
@@ -472,8 +472,8 @@ video {
   --tw-rotate: 0;
   --tw-skew-x: 0;
   --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
+  --tw-scale-x: calc ( 10px ( 12 - 10 ) * ( ( 100vw - 300px) (1400 - 300 )));/*1;*/
+  --tw-scale-y: calc ( 10px ( 12 - 10 ) * ( ( 100vw - 300px) (1400 - 300 )));/*1;*/
   --tw-pan-x:  ;
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
@@ -519,8 +519,8 @@ video {
   --tw-rotate: 0;
   --tw-skew-x: 0;
   --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
+  --tw-scale-x: calc ( 10px ( 12 - 10 ) * ( ( 100vw - 300px) (1400 - 300 )));/*1;*/
+  --tw-scale-y: calc ( 10px ( 12 - 10 ) * ( ( 100vw - 300px) (1400 - 300 )));/*1;*/
   --tw-pan-x:  ;
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
@@ -722,7 +722,7 @@ video {
 }
 
 .text-4xl {
-  font-size: 2.25rem;
+  font-size: calc (4rem + 3vw);/*2.25rem;*/
   line-height: 2.5rem;
 }
 
